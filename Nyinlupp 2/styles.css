@@ -1,0 +1,333 @@
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+.header-bg {
+    background-image: url('images/Group\ 4634.png'), url('images/Rectangle\ 1914.png'); 
+    background-repeat: no-repeat;
+    background-attachment: center;
+    background-position: 50% 95%;
+    
+}
+.btn1 {
+    margin-left: 2rem;
+    border-radius: 7px;
+    color: white;
+}
+
+.btn:hover {
+    color: white !important;
+    background-color: #ecb212 !important ;
+}
+
+.btn:focus{
+    color: #fff;
+}
+.nav-link {
+    font-weight: 570;
+    position: relative;
+
+
+}
+.nav-link:hover{
+    color: #FFBB00 !important;
+    /* border-bottom: 3px solid #FFBB00 !important; */
+}
+.active {
+    /* position: relative; */
+
+}
+.nav-link:hover::after{
+    content: '';
+    position: absolute;
+    background: #FFBB00;
+    height: 3px;
+    left: 0;
+    bottom: 0.2rem;
+    right: 0.5rem;
+    width: 2.2rem;
+}
+
+.btn-fix {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    border-radius: 10px;
+    border-color: white;   
+}
+
+.imgfix1 img {
+    height: 40px;
+}
+.btn-fix2 {
+    border: none !important
+}
+.imgsize{
+    height: 100px;
+    background-color: ;  
+}
+.imgsize:focus {
+    color: white !important;
+}
+.header-bg-img {
+    background-image: url('images/iPhone.png'), url('images/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    
+}
+
+.bg-pos{
+    background-image: url('images/Repeat\ Grid\ 1.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 600px;
+}
+
+.imagemove{
+    height: 400px;
+}
+
+
+
+
+.bg-color {
+    background-image: url('images/rec1.png'), url('images/Repeat\ Grid\ 1.png');
+    background-repeat: no-repeat;
+    height: 700px;
+    position:;
+}
+
+h2{
+    color: #3096FE;
+}
+
+.bg-world {
+    background-image: url('images/world.png');
+    background-repeat: no-repeat;
+    background-position:  50%;
+    height: 360px;
+    
+}
+
+
+
+.bgbg {
+    background-color: #1487FD;
+    background-image: url('images/fff.png'), url('images/Mask\ Group\ 1.png') ; 
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 490px;
+    
+}
+.imgbig{
+    height: 500px;
+    
+}
+ 
+.mobile3 img {
+width: 100%;
+height: 305px;
+}
+
+.bgbggrey{
+    background-color: #FBFBFB;
+    border-radius: 8px;
+    
+}
+
+.formheight{
+    height: 210px !important;
+    width: 100%;
+
+}
+
+.btn-color{
+    background-color: #3096FE;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.imgbig {
+    background-image: url('images/Mask\ Group\ 1.png');
+    height: 400px;
+}
+
+.bg-blue {
+background-image: url('images/bgbg.png'), url('images/Rectangle\ 2018.png') ;
+   background-repeat: no-repeat;
+   position: center;
+    height: 250px;
+}
+
+.active1{
+    text-decoration: none;
+    padding: 1.6rem;
+}
+.carousel-inner {
+    height: 500px;
+}
+  .padding  {
+      padding: 0.3rem;
+  }
+  .poppins {
+      font-family: 'Poppins', sans-serif;
+  }
+
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+
+
+
+
+
+
+
+
+
+  
+@media(max-width: 560px) {
+    .nav-link:hover::after{
+    content: '';
+    position: absolute;
+    background: #FFBB00;
+    height: 3px;
+    left: 0;
+    bottom: 0.2rem;
+    right: 0.5rem;
+    width: 2.2rem;
+    
+}
+.imgscreen {
+    display: none;
+}
+.imgscreen img {
+    height: 180px;
+}
+    .dip-none {
+        display: none;
+    }
+    
+    .bg-color{
+        background-image: none;   
+    }
+    .btn-color {
+        width: 400px;
+        
+    }
+    .bgbg{
+        background-image: none;
+    }
+    .topnav-centered1{
+        display: none;
+    }
+    .bg-world {
+        background-image: none;
+        
+    }
+   .overflow {
+       overflow: hidden;
+   }
+   
+   
+.swipe-container{
+    width: 50%;
+}
+}
+@media(max-width: 768px) {
+    .nav-link:hover::after{
+        content: '';
+        position: absolute;
+        background: #FFBB00;
+        height: 3px;
+        left: 0.5rem;
+        bottom: 0.2rem;
+        right: 1.2rem;
+        width: auto;
+        
+    }
+    .imgscreen {
+        display: none;
+    }
+    .dip-none {
+        display: none;
+    }
+    .dip-position {
+        height: 200px;
+    }
+    .bg-color{
+        background-image: none;   
+    }
+    .bgbg{
+        background-image: none;
+    }
+    .topnav-centered1{
+        display: none;
+        
+    }
+    .bg-world{
+        background-image: none;
+    }
+    .bg-pos{
+        
+    }
+    .btn-color {
+        width: 400px;
+        
+    }
+    .overflow {
+        overflow: hidden;
+    }
+    .imgscreen {
+        overflow: hidden;
+        width: auto;
+    }
+    .imgscreen img {
+        height: 190px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .sizeiphone img {
+        display: none;
+    }
+}
